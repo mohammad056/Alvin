@@ -1,6 +1,3 @@
--- #Beyond Reborn Robot
--- #@BeyondTeam
-
 tdcli = dofile('./tg/tdcli.lua')
 serpent = (loadfile "./libs/serpent.lua")()
 feedparser = (loadfile "./libs/feedparser.lua")()
@@ -71,7 +68,6 @@ function create_config( )
 		"fun",
 		"info",
 		"lock_fosh",
-		"expiretime",
 		"del"
 		
 	},
